@@ -9,7 +9,7 @@ function createBlog(blog) {
   // create banner Image
   let bannerImage = document.createElement("img");
   bannerImage.src = blog.imageUrl;
-
+  bannerImage.className = "banner-width";
   //create blog content
   let blogContent = document.createElement("p");
   blogContent.innerHTML = blog.content;
